@@ -1016,7 +1016,7 @@ textarea {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 145px 0 135px;
+    padding: 145px 0 200px;
     position: relative;
 }
 .testimonial_content {
@@ -1294,7 +1294,7 @@ textarea {
 
 .footer-section{
     position: relative;
-    background-color: #264100;
+    background-color: #67aa00;
     padding: 308px 0 0px;
     /* margin-top: -218px; */
 }
@@ -1334,7 +1334,8 @@ textarea {
     border-radius: 100%;
     /* background: var(--e-global-color-desaturated-magenta); */
     background: #a6d263;
-    color: var(--e-global-color-white);
+    /* color: var(--e-global-color-white); */
+    color: #000;
     font-size: 18px;
     line-height: 48px;
     height: 48px;
@@ -2252,6 +2253,12 @@ header.scrolled {
 
 header.scrolled .main_header {
     padding: 20px 180px 20px;
+}
+
+@media(max-width: 767px) {
+    header.scrolled .main_header {
+        padding: 2px 20px 2px;
+    }
 }
 
 header.scrolled .navbar-nav .nav-item a{

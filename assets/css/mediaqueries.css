@@ -649,7 +649,7 @@
 
     .footer-section {
         padding: 230px 0 0px;
-        margin-top: -135px;
+        /* margin-top: -135px; */
     }
     .middle-portion .footer_logo {
         padding-left: 20px;
@@ -1060,7 +1060,8 @@
         height: 22px;
     }
     .navbar-light .navbar-toggler-icon {
-        background: var(--e-global-color-white);
+        /* background: var(--e-global-color-white); */
+        background: #b3966b;
         height: 2px;
         margin: 7px 0 0 0;
         width: 100%;
@@ -1441,7 +1442,7 @@
     }
 
     .testimonial_section {
-        padding: 70px 0;
+        padding: 150px 0;
     }
     .testimonial_content i {
         font-size: 100px;
@@ -2097,7 +2098,7 @@
     }
     
     .our_specialties_section {
-        padding: 55px 0 30px;
+        padding: 55px 20px 30px;
     }
     .our_specialties_heading_content h2 {
         margin-bottom: 8px;
@@ -2251,6 +2252,8 @@
 
     .testimonial_section {
         padding: 60px 0;
+        /* padding: 100px 0 240px 0; */
+    }
     }
     .testimonial_content i {
         font-size: 70px;
@@ -2370,8 +2373,8 @@
     }
 
     .footer-section {
-        padding: 145px 0 0;
-        margin-top: -90px;
+        padding: 60px 0 0;
+        /* margin-top: -90px; */
     }
     .middle-portion {
         margin-bottom: 60px;
@@ -2696,7 +2699,7 @@
     }
     .message_section .box {
         width: 100%;
-        padding: 22px 90px 30px;
+        padding: 22px 15px 30px;
         margin-bottom: 20px;
         margin-left: 0;
     }
@@ -2704,9 +2707,9 @@
         width: 20%;
     }
     .message_section .box .box_image_content figure {
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
     }
     .message_section .box .box_image_content figure img {
         width: 25px;
@@ -2738,7 +2741,7 @@
         padding: 20px 15px 0;
     }
     .navbar-brand img {
-        width: 100px;
+        width: 200px;
     }
     .navbar-collapse {
         width: 65%;
@@ -3030,7 +3033,7 @@
 
     .footer-section {
         padding: 100px 0 0;
-        margin-top: -45px;
+        /* margin-top: -45px; */
     }
     .middle-portion {
         text-align: center;

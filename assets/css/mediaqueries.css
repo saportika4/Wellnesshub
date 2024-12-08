@@ -56,7 +56,7 @@
         width: 120px;
     }
     .get_in_touch_section::after {
-        width: 58%;
+        width: 45%;
     }
     .get_in_touch_section .get_in_touch_video .video_img {
         left: -15px;
@@ -454,7 +454,7 @@
         width: 92px;
     }
     .get_in_touch_section::after {
-        width: 68%;
+        width: 52%;
     }
 
     .pricing_plans_section {
@@ -1384,7 +1384,7 @@
         display: none;
     }
     .get_in_touch_section::after {
-        width: 87%;
+        width: 62%;
     }
 
     .pricing_plans_section {
@@ -2081,7 +2081,7 @@
     .aboutus_content h6 {
         margin-left: 0px;
         margin-bottom: 18px;
-        padding: 0 75px;
+        padding: 0 5px;
     }
     h6 {
         font-size: 14px;
@@ -2089,7 +2089,7 @@
     }
     .aboutus_line_wrapper .purple_line {
         top: 5px;
-        left: 80px;
+        left: 15px;
     }
     .aboutus_content .btn_wrapper .get_started_btn {
         font-size: 16px;
@@ -2180,11 +2180,12 @@
     }
 
     .get_in_touch_section {
-        padding: 55px 0 0;
+        padding: 55px 0 40px;
     }
     .get_in_touch_section:before {
         width: 100%;
-        height: 480px;
+        /* height: 480px; */
+        height: 100%;
     }
     .get_in_touch_content {
         text-align: center;
@@ -2219,7 +2220,7 @@
     }
     .get_in_touch_section::after {
         width: 100%;
-        display: block;
+        display: none;
         position: relative;
         background-position: center;
     }
@@ -2468,14 +2469,14 @@
     }
     .aboutpage_aboutus_section .aboutus_top_shape {
         top: 55px;
-        left: -12px;
+        left: -86px;
     }
     .aboutpage_aboutus_section .aboutus_top_shape img {
         width: 160px;
     }
     .aboutpage_aboutus_section .aboutus_bottom_shape {
         top: 205px;
-        left: -15px;
+        left: -45px;
     }
     .aboutpage_aboutus_section .aboutus_bottom_shape img {
         width: 65px;
@@ -2494,7 +2495,7 @@
         margin-bottom: 18px;
     }
     .aboutpage_aboutus_content .box {
-        width: 32%;
+        width: 46%;
         padding: 12px 26px 12px;
         margin-bottom: 15px;
         margin-right: 20px;

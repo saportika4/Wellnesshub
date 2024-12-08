@@ -584,7 +584,7 @@ p{
 /* Home Page Our Specialties Section Style */
 
 .our_specialties_section{
-    padding: 120px 0 108px;
+    padding: 60px 0 108px;
     position: relative;
 }
 .our_specialties_heading_content{
@@ -758,16 +758,16 @@ p{
 .get_in_touch_section:before {
     background: #ecf4df;
     content: "";
-    width: 50%;
+    width: 60%;
     height: 806px;
     top: 0;
     left: 0;
     position: absolute;
 }
 .get_in_touch_section::after {
-    background: url(../images/get_in_touch_image.jpg);
+    background: url(../images/services/2148186374.jpg);
     content: "";
-    width: 50%;
+    width: 40%;
     height: 806px;
     position: absolute;
     right: 0;
@@ -2263,4 +2263,26 @@ header.scrolled .main_header {
 
 header.scrolled .navbar-nav .nav-item a{
     color: #000 !important;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.services_box_upper_portion figure img{
+    min-height: 400px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+@media(max-width: 767px) {
+    .services_box_upper_portion figure img{
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    /* .mission_image figure img{
+        max-height: 300px;
+        object-fit: cover;
+    } */
 }

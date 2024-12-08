@@ -1039,7 +1039,7 @@
         position: absolute;
         right: 0px;
         width: 30%;
-        top: 45px;
+        top: 85px;
         z-index: 16;
         padding: 0;
         box-shadow: 1px 1px 30px rgb(0 0 0 / 10%);
@@ -1930,7 +1930,7 @@
         width: 170px;
     }
     .navbar-collapse{
-        width: 45%;
+        width: 65%;
     }
 
     .banner-section-outer .banner-section {
@@ -3245,5 +3245,11 @@
 
     .contact_subscribe_section {
         margin-top: -395px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .navbar-collapse{
+        width: 100%;
     }
 }

@@ -1720,7 +1720,7 @@
         padding: 70px 0 35px;
     }
     .mission_section .mission_box {
-        border-radius: 140px 0 140px 0;
+        /* border-radius: 140px 0 140px 0; */
     }
     .mission_content {
         padding-top: 70px;
@@ -1746,7 +1746,7 @@
         padding: 35px 0 70px;
     }
     .vision_section .vision_box {
-        border-radius: 120px 0 120px 0;
+        /* border-radius: 120px 0 120px 0; */
     }
     .vision_content {
         padding-top: 40px;
@@ -2255,7 +2255,6 @@
         padding: 60px 50px;
         /* padding: 100px 0 240px 0; */
     }
-    }
     .testimonial_content i {
         font-size: 70px;
         line-height: 42px;
@@ -2264,7 +2263,7 @@
     .testimonial_content .testimonial_paragraph {
         font-size: 16px;
         line-height: 26px;
-        padding: 0;
+        padding: 80px;
         margin-bottom: 12px;
     }
     .testimonial_content figure {
@@ -2434,7 +2433,7 @@
         margin-bottom: 15px;
     }
     .sub-banner-section .banner-section .btn_wrapper {
-        padding: 10px 15px;
+        padding: 20px 25px;
     }
     .sub-banner-section .banner-section .banner_left_top_shape {
         top: 55px;
@@ -2536,7 +2535,8 @@
         padding: 60px 0 30px;
     }
     .mission_section .mission_box {
-        border-radius: 185px 0 185px 0;
+        /* border-radius: 185px 0 185px 0; */
+        border-radius: 20px;
     }
     .mission_content {
         padding-top: 60px;
@@ -2561,14 +2561,16 @@
         padding: 30px 0 60px;
     }
     .vision_section .vision_box {
-        border-radius: 185px 0 185px 0;
+        /* border-radius: 185px 0 185px 0; */
+        border-radius: 50px;
+        padding: 30px;
     }
     .vision_section .vision_image{
         margin-bottom: 30px;
     }
     .vision_content {
         padding-top: 0;
-        text-align: center;
+        /* text-align: center; */
         padding-left: 0px;
         margin-bottom: 30px;
     }
@@ -2577,7 +2579,7 @@
     }
     .vision_content p {
         margin-bottom: 18px;
-        padding: 0 50px;
+        /* padding: 0 50px; */
     }
     .vision_content .btn_wrapper .read_more_btn {
         font-size: 16px;
@@ -2700,7 +2702,7 @@
     }
     .message_section .box {
         width: 100%;
-        padding: 22px 15px 30px;
+        padding: 26px 24px 30px;
         margin-bottom: 20px;
         margin-left: 0;
     }
@@ -2746,6 +2748,11 @@
     }
     .navbar-collapse {
         width: 65%;
+    }
+
+    .testimonial_content .testimonial_paragraph{
+        padding: 15px !important;
+        text-align: justify;
     }
 
     .banner-section-outer .banner-section {
@@ -3128,7 +3135,7 @@
     }
 
     .mission_section .mission_box {
-        border-radius: 118px 0 118px 0;
+        /* border-radius: 118px 0 118px 0; */
     }
     .mission_content {
         padding-top: 50px;
@@ -3144,7 +3151,7 @@
     }
 
     .vision_section .vision_box {
-        border-radius: 118px 0 118px 0;
+        /* border-radius: 118px 0 118px 0; */
     }
     .vision_content p {
         margin-bottom: 15px;

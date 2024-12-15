@@ -92,7 +92,8 @@ p{
 /* Home Page Header Section Style */
 
 .banner-section-outer{
-    background-image: url('../images/bg/banner_section_background.jpg');
+    /* background-image: url('../images/bg/banner_section_background.jpg'); */
+    background-image: url('../images/bg/wellness.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -140,7 +141,7 @@ p{
 .navbar-nav .nav-item a{
     /* font-family: 'Playfair Display', serif; */
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 18px;
     font-weight: 400;
     color: var(--e-global-color-white) !important;
@@ -198,10 +199,12 @@ p{
 .navbar-nav .nav-item .contact_us{
     background-color: #bed39c;
     color: var(--e-global-color-accent) !important;
-    padding: 20px 50px;
+    /* padding: 20px 50px; */
+    padding: 18px 35px;
     text-align: center;
     display: inline-block;
-    border-radius: 30px 0px 30px 0px;
+    /* border-radius: 30px 0px 30px 0px; */
+    border-radius: 16px;
     transition: all 0.3s ease-in-out;
 }
 .navbar-nav .nav-item .contact_us:hover {
@@ -410,7 +413,7 @@ p{
 /* Home Page Our Services Section Style */
 
 .services_section{
-    padding: 120px 0 130px;
+    padding: 60px 0 30px;
     position: relative;
 }
 .services_section .services_content{
@@ -548,12 +551,12 @@ p{
     font-size: 22px;
     line-height: 22px;
     font-weight: 500;
-    padding: 24px 40px;
+    padding: 20px 35px;
     text-align: center;
     color: var(--e-global-color-accent);
     display: inline-block;
     background-color: #ecf4df;
-    border-radius: 35px 0px 35px 0px;
+    border-radius: 22px 0px 22px 0px;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
 }
@@ -751,7 +754,7 @@ p{
 /* Home Page Get In Touch Section Style */
 
 .get_in_touch_section{
-    padding: 120px 0 130px;
+    padding: 120px 0 53px;
     position: relative;
     overflow: hidden;
 }
@@ -759,16 +762,18 @@ p{
     background: #ecf4df;
     content: "";
     width: 60%;
-    height: 806px;
+    height: 667px;
     top: 0;
     left: 0;
     position: absolute;
 }
 .get_in_touch_section::after {
-    background: url(../images/services/2148186374.jpg);
+    /* background: url(../images/services/2148186374.jpg); */
+    background: url(../images/bg/contact.jpg);
     content: "";
     width: 40%;
-    height: 806px;
+    height: 667px;
+    background-repeat: no-repeat;
     position: absolute;
     right: 0;
     top: 0;
@@ -832,12 +837,13 @@ textarea {
     font-size: 22px;
     line-height: 22px;
     font-weight: 500;
-    padding: 24px 40px;
+    padding: 18px 30px;
     text-align: center;
     color: var(--e-global-color-white);
     display: inline-block;
     background-color: #a6d263;
-    border-radius: 35px 0px 35px 0px;
+    border-radius: 22px 0px 22px 0px;
+    /* border-radius: 10px; */
     transition: all 0.3s ease-in-out;
     outline: none;
     border: none;
@@ -1012,11 +1018,12 @@ textarea {
 /* Home Page Testimonial Section Style */
 
 .testimonial_section{
-    background-image: url('../images/testimonial_background.jpg');
+    /* background-image: url('../images/testimonial_background.jpg'); */
+    background-image: url('../images/bg/review2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 145px 0 200px;
+    padding: 145px 0 50px;
     position: relative;
 }
 .testimonial_content {
@@ -1295,7 +1302,8 @@ textarea {
 .footer-section{
     position: relative;
     background-color: #67aa00;
-    padding: 308px 0 0px;
+    /* padding: 308px 0 0px; */
+    padding: 90px 0 0px;
     /* margin-top: -218px; */
 }
 .middle-portion {
@@ -1412,7 +1420,8 @@ textarea {
 /* About Page Sub Banner Section Style */
 
 .sub-banner-section{
-    background-image: url('../images/bg/subbanner_section_background.jpg');
+    /* background-image: url('../images/bg/subbanner_section_background.jpg'); */
+    background-image: url('../images/bg/bg1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1479,7 +1488,7 @@ textarea {
 /* About Page About Us Section Style */
 
 .aboutpage_aboutus_section{
-    padding: 132px 0;
+    padding: 75px 0;
 }
 .aboutpage_aboutus_image{
     position: relative;
@@ -1500,7 +1509,7 @@ textarea {
     z-index: -1;
 }
 .aboutpage_aboutus_content{
-    padding-top: 110px;
+    padding-top: 35px;
 }
 .aboutpage_aboutus_content h5{
     text-transform: uppercase;
@@ -1623,18 +1632,20 @@ textarea {
 /* About Page Our Mission Section Style */
 
 .mission_section{
-    padding: 130px 0 45px;
+    padding: 10px 0 45px;
     position: relative;
 }
 .mission_section .mission_box{
     width: 100%;
     background-color: var(--e-global-color-white);
-    border-radius: 200px 0 200px 0;
+    /* border-radius: 200px 0 200px 0; */
+    border-radius: 20px;
     box-shadow: 1px 1px 50px rgb(0 0 0 / 7%);
 }
 .mission_content{
-    padding-top: 100px;
-    padding-left: 96px;
+    padding-top: 30px;
+    /* padding-left: 96px; */
+    padding-left: 40px;
 }
 .mission_content h5{
     text-transform: uppercase;
@@ -1703,11 +1714,12 @@ textarea {
 .vision_section .vision_box{
     width: 100%;
     background-color: var(--e-global-color-white);
-    border-radius: 200px 0 200px 0;
+    /* border-radius: 200px 0 200px 0; */
+    border-radius: 10px;
     box-shadow: 1px 1px 50px rgb(0 0 0 / 7%);
 }
 .vision_content{
-    padding-top: 100px;
+    padding-top: 30px;
     padding-left: 40px;
 }
 .vision_content h5{
@@ -1859,7 +1871,7 @@ textarea {
     color: var(--e-global-color-text);
 }
 .our_team_section .our_team_box_content{
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     transition: all 0.3s ease-in-out;
 }
 .our_team_section .our_team_box_content .our_team_box_upper_portion{
@@ -2098,7 +2110,8 @@ textarea {
     color: var(--e-global-color-accent);
     display: inline-block;
     background-color: #ecf4df;
-    border-radius: 35px 0px 35px 0px;
+    /* border-radius: 35px 0px 35px 0px; */
+    border-radius: 10px;
     transition: all 0.3s ease-in-out;
     outline: none;
     border: none;
@@ -2136,7 +2149,8 @@ textarea {
     box-shadow: 1px 1px 50px rgb(0 0 0 / 5%);
     width: 380px;
     transition: all 0.3s ease-in-out;
-    border-radius: 45px 0 45px 0;
+    /* border-radius: 45px 0 45px 0; */
+    border-radius: 15px;
     background-color: var(--e-global-color-white);
     padding: 30px 18px 40px;
     margin-left: -30px;
@@ -2272,6 +2286,7 @@ header.scrolled .navbar-nav .nav-item a{
 .services_box_upper_portion figure img{
     min-height: 400px;
     max-height: 400px;
+    width: 100%;
     object-fit: cover;
 }
 

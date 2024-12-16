@@ -252,7 +252,8 @@ p{
 /* Home Page Banner Section Style */
 
 .banner-section-outer .banner-section{
-    padding: 50px 292px 138px;
+    /* padding: 50px 292px 138px; */
+    padding: 80px 92px 100px;
     position: relative;
 }
 .banner-section-outer .banner-section .banner-section-content{

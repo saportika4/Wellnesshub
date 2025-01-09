@@ -22,10 +22,13 @@
     <link href="assets/css/special-classes.css" rel="stylesheet" type="text/css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <!-- Add Bootstrap CSS and JS for the carousel -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-<div class="banner-section-outer">
+<div class="banner-section-outer" style="min-height: 100vh;">
     <header>
         <div class="main_header">
             <div class="container-fluid">
@@ -74,7 +77,7 @@
         </div>
     </header>
     <!-- SOCIAL ICONS -->
-    <div class="left_icons float-left d-table" data-aos="fade-down">
+    <!-- <div class="left_icons float-left d-table" data-aos="fade-down">
     <div class="icon_content d-table-cell align-middle">
         <ul class="list-unstyled p-0 m-0">
             <li>
@@ -85,47 +88,93 @@
             </li>
         </ul>
     </div>
-    </div>
+    </div> -->
     <!-- BANNER SECTION -->
     <section class="banner-section">
-        <div class="container-fluid">
-            <div class="row" data-aos="fade-up">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-md-left text-center">
-                    <div class="banner-section-content">
-                        <h5>Begin Your Journey to Happiness</h5>
-                        <h1 data-aos="fade-up">Transform Your Mind Body & Soul
-                            <!-- <span class="ityped"></span> -->
-                        </h1>
-                        <p data-aos="fade-right">Empower Your Health Journey.</p>
-                        <!-- <div class="btn_wrapper" data-aos="fade-up">
-                            <a class="text-decoration-none getstarted_btn" href="./about.html">Submit</a>
-                        </div> -->
-                        <a class="top-btn" href="./index.html#aboutus_section">
-                            <i class="fa-solid fa-arrow-down-long"></i>
-                        </a>
+        <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="container-fluid">
+                        <div class="row align-items-center" data-aos="fade-up">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-md-left text-center">
+                                <div class="banner-section-content">
+                                    <!-- <h5>Begin Your Journey to Happiness</h5> -->
+                                    <h1 data-aos="fade-up">Online Yoga For Ladies</h1>
+                                    <p data-aos="fade-right">Harmonise Your mind and Body</p>
+                                    <a class="top-btn" href="./index.html#aboutus_section">
+                                        <i class="fa-solid fa-arrow-down-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class="banner-section-image">
+                                    <figure class="mb-0">
+                                        <img src="./assets/images/bg/yoga-bg1.jpg" alt="Yoga Image 1" style="border-top-left-radius: 30px; border-bottom-right-radius: 30px; max-width: 650px;">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="banner-section-image">
-                        <figure class="mb-0">
-                            <img src="./assets/images/bg/yoga-bg1.jpg" alt="" style="border-top-left-radius: 30px;
-                            border-bottom-right-radius: 30px; max-width: 650px;">
-                        </figure> 
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="container-fluid">
+                        <div class="row align-items-center" data-aos="fade-up">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-md-left text-center">
+                                <div class="banner-section-content">
+                                    <!-- <h5>Discover a Better You</h5> -->
+                                    <h1 data-aos="fade-up">Online Counseling</h1>
+                                    <p data-aos="fade-right">Mental damage No longer Rule your life</p>
+                                    <a class="top-btn" href="./index.html#aboutus_section">
+                                        <i class="fa-solid fa-arrow-down-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class="banner-section-image">
+                                    <figure class="mb-0">
+                                        <img src="./assets/images/bg/counseling.webp" alt="Yoga Image 2" style="border-top-left-radius: 30px; border-bottom-right-radius: 30px; max-width: 650px;">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="container-fluid">
+                        <div class="row align-items-center" data-aos="fade-up">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-md-left text-center">
+                                <div class="banner-section-content">
+                                    <!-- <h5>Elevate Your Lifestyle</h5> -->
+                                    <h1 data-aos="fade-up">Online Ayurvedic Clinic</h1>
+                                    <p data-aos="fade-right">Holistic Healing by Ayurveda</p>
+                                    <a class="top-btn" href="./index.html#aboutus_section">
+                                        <i class="fa-solid fa-arrow-down-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class="banner-section-image">
+                                    <figure class="mb-0">
+                                        <img src="./assets/images/bg/ayurvedic1.jpg" alt="Yoga Image 3" style="border-top-left-radius: 30px; border-bottom-right-radius: 30px; max-width: 650px;">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <figure class="banner_left_top_shape left_shape mb-0">
-                <img src="./assets/images/banner_left_top_shape.png" alt="" class="img-fluid">
-            </figure>
-            <figure class="banner_left_bottom_shape left_shape mb-0">
-                <img src="./assets/images/banner_left_bottom_shape.png" alt="" class="img-fluid">
-            </figure>
-            <figure class="banner_right_top_shape right_shape mb-0">
-                <img src="./assets/images/banner_right_top_shape.png" alt="" class="img-fluid">
-            </figure>
-            <figure class="banner_right_bottom_shape right_shape mb-0">
-                <img src="./assets/images/banner_right_bottom_shape.png" alt="" class="img-fluid">
-            </figure>
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev" style="width: 5%;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next" style="width: 5%;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
 </div>
@@ -134,9 +183,45 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                <div class="aboutus_image d-flex align-items-center h-100">
-                    <figure class="mb-0"><img src="./assets/images/bg/yoga2.jpg" alt="" class="img-fluid"></figure>
+                <div id="aboutUsCarousel" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="2500">
+                    <div class="carousel-inner">
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active" style="z-index: 10;">
+                            <div class="aboutus_image d-flex align-items-center h-100">
+                                <figure class="mb-0">
+                                    <img src="./assets/images/bg/Meditation-Strength-Training-for-the-Mind-1080x675.jpg" alt="Yoga Lady" class="img-fluid" style="object-fit: cover; max-height: 500px; min-height: 500px;">
+                                </figure>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="carousel-item" style="z-index: 10;">
+                            <div class="aboutus_image d-flex align-items-center h-100">
+                                <figure class="mb-0">
+                                    <img src="./assets/images/bg/online-counseling.png" alt="Yoga Pose 2" class="img-fluid" style="object-fit: cover; max-height: 500px; min-height: 500px;">
+                                </figure>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="carousel-item" style="z-index: 10;">
+                            <div class="aboutus_image d-flex align-items-center h-100">
+                                <figure class="mb-0">
+                                    <img src="./assets/images/bg/ayurvedic-herbs1.webp" alt="Yoga Pose 3" class="img-fluid" style="object-fit: cover; max-height: 500px; min-height: 500px;">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel Controls -->
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#aboutUsCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#aboutUsCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button> -->
                 </div>
+            
+                <!-- Decorative Shapes -->
                 <figure class="aboutus_top_shape left_shape mb-0">
                     <img src="./assets/images/aboutus_top_shape.png" alt="" class="img-fluid">
                 </figure>
@@ -144,6 +229,7 @@
                     <img src="./assets/images/aboutus_bottom_shape.png" alt="" class="img-fluid">
                 </figure>
             </div>
+            
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" data-aos="fade-right">
                 <div class="aboutus_content">
                     <h5>About us</h5>
@@ -181,11 +267,11 @@
                             <figure class="mb-0"><img src="./assets/images/services/yoga1.jpg" alt="" class="img-fluid" style="border-radius: 10px;"></figure>
                         </div>
                         <div class="services_box_lower_portion">
-                            <h3 style="line-height: normal; color: #61be67 !important;">Online Yoga</h3>
+                            <h3 style="line-height: normal; color: #61be67 !important;">Online Yoga For Ladies</h3>
                             <p style="color: #000 !important;">Transformative wellness with guided online yoga sessions.</p>
-                            <!-- <div class="btn_wrapper">
-                                <a href="./services.html" class="text-decoration-none"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-                            </div> -->
+                            <div class="btn_wrapper">
+                                <a href="./online-yoga.html" class="text-decoration-none"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
                         </div>
                     </div>
                 </a>
@@ -197,10 +283,10 @@
                             <figure class="mb-0"><img src="./assets/images/bg/Online-Counselling.jpeg" alt="" class="img-fluid" style="border-radius: 10px; object-position: -87px;"></figure>
                         </div>
                         <div class="services_box_lower_portion">
-                            <h3 style="line-height: normal; color: #61be67 !important;">Online counselling</h3>
+                            <h3 style="line-height: normal; color: #61be67 !important;">Online counseling</h3>
                             <p style="color: #000 !important;">Empowering growth through confidential online counseling support.</p>
                             <div class="btn_wrapper">
-                                <!-- <a href="./services.html" class="text-decoration-none"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a> -->
+                                <a href="./online-counseling.html" class="text-decoration-none"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -213,10 +299,10 @@
                             <figure class="mb-0"><img src="./assets/images/bg/ayurvedic1.jpg" alt="" class="img-fluid" style="border-radius: 10px;"></figure>
                         </div>
                         <div class="services_box_lower_portion">
-                            <h3 style="line-height: normal; color: #61be67 !important;">Online Ayurvedic Treatment</h3>
+                            <h3 style="line-height: normal; color: #61be67 !important;">Online Ayurvedic Clinic</h3>
                             <p style="color: #000 !important;">Comprehensive healing through personalized online Ayurvedic consultations.</p>
                             <div class="btn_wrapper">
-                                <!-- <a href="./services.html" class="text-decoration-none"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a> -->
+                                <a href="./online-ayurvedic-treatment.html" class="text-decoration-none"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>

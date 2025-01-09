@@ -1055,7 +1055,7 @@
     .navbar-toggler {
         margin-left: auto;
         border: none !important;
-        padding: 0;
+        padding: 0 !important;
         width: 30px;
         height: 22px;
     }

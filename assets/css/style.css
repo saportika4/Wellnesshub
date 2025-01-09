@@ -43,10 +43,10 @@ html{
 h1{
     /* font-family: 'Playfair Display', serif; */
     font-family: "Poppins", sans-serif;
-    font-size: 64px;
-    line-height: 82px;
-    font-weight: 700;
-    color: var(--e-global-color-white);
+    font-size: 64px !important;
+    line-height: 82px !important;
+    font-weight: 700 !important;
+    color: var(--e-global-color-white) !important;
 }
 h2{
     /* font-family: 'Playfair Display', serif; */
@@ -93,7 +93,7 @@ p{
 
 .banner-section-outer{
     /* background-image: url('../images/bg/banner_section_background.jpg'); */
-    background-image: url('../images/bg/wellness.jpg');
+    background-image: url('../images/bg/home\ banner-main.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -153,7 +153,8 @@ p{
     background-color: transparent;
 }
 .navbar-nav .active > a{
-    color: #9ed641 !important;
+    /* color: #9ed641 !important; */
+    color: #000000 !important;
     /* color: #709b2a !important; */
 }
 .navbar-nav .dropdown{
@@ -253,11 +254,12 @@ p{
 
 .banner-section-outer .banner-section{
     /* padding: 50px 292px 138px; */
-    padding: 80px 92px 100px;
+    padding: 80px 20px 100px;
     position: relative;
 }
 .banner-section-outer .banner-section .banner-section-content{
     padding-top: 168px;
+    padding: 20px;
 }
 .banner-section-outer .banner-section h5{
     text-transform: uppercase;
@@ -353,10 +355,10 @@ p{
 }
 .banner-section-outer .banner-section .banner-section-image{
     position: relative;
-    animation: float 6s ease-in-out infinite;
+    /* animation: float 6s ease-in-out infinite; */
 }
 .banner-section-outer .banner-section .banner-section-image figure{
-    position: absolute;
+    /* position: absolute; */
     top: -5px;
     left: -20px;
 }
@@ -517,7 +519,8 @@ p{
     left: -65px;
 }
 .aboutus_content{
-    padding-top: 145px;
+    /* padding-top: 145px; */
+    padding-top: 50px;
     padding-left: 16px;
 }
 .aboutus_content h5{

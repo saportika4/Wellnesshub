@@ -416,7 +416,7 @@ p{
 /* Home Page Our Services Section Style */
 
 .services_section{
-    padding: 60px 0 30px;
+    padding: 60px 0 50px;
     position: relative;
 }
 .services_section .services_content{
@@ -1441,7 +1441,10 @@ textarea {
     margin-bottom: 16px;
 }
 .sub-banner-section .banner-section p {
-    color: var(--e-global-color-white);
+    /* color: var(--e-global-color-white); */
+    color: #0dc143;
+    font-weight: 600;
+    font-size: 25px;
     padding: 0 260px;
     margin-bottom: 26px;
 }

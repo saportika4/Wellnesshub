@@ -2303,6 +2303,11 @@ header.scrolled .navbar-nav .nav-item a{
         object-fit: cover;
     }
 
+    .banner-section-content h1{
+        font-size: 32px !important;
+        line-height: normal !important; 
+    }
+
     /* .mission_image figure img{
         max-height: 300px;
         object-fit: cover;

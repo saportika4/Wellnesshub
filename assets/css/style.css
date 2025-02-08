@@ -24,6 +24,7 @@ Project: Yogastic
 
 body {
     font-family: 'Karla', sans-serif;
+    overflow-x: hidden;
 }
 :root {
     --e-global-color-primary: #242424;

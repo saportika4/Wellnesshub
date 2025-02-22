@@ -1076,6 +1076,7 @@ textarea {
     bottom: 78px;
 }
 #carouselExampleControls .carousel-control-prev{
+    text-decoration: none !important;
     left: -112px;
     top: -70px;
     font-size: 50px;
@@ -1090,6 +1091,7 @@ textarea {
     color: #ecf4df;
 }
 #carouselExampleControls .carousel-control-next{
+    text-decoration: none !important;
     right: -112px;
     top: -70px;
     font-size: 50px;

@@ -116,7 +116,8 @@
                     <h5>Get in Touch.</h5>
                     <h2>Send us a Message</h2>
                     <p>Have questions or need assistance? Send us a message, and we’ll get back to you promptly.</p>
-                    <form id="contactpage" method="POST" action="./contact-form.php">
+                    <form id="my-form" action="https://formspree.io/f/xyzegggo"
+                    method="POST">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="form-group mb-0">    
@@ -147,8 +148,9 @@
                             </div>
                         </div>
                         <div class="btn_wrapper">
-                            <button type="submit" name="get_started" id="started">Submit</button>
+                            <button type="submit" id="my-form-button">Submit</button>
                         </div>
+                        <p id="my-form-status"></p>
                     </form>
                 </div>
             </div>
@@ -301,6 +303,40 @@
 <script src="assets/js/animation.js"></script>
 <script src="https://unpkg.com/ityped@0.0.10"></script>
 <script src="assets/js/type.js"></script>
+
+<script>
+    var form = document.getElementById("my-form");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+        }).then(response => {
+        if (response.ok) {
+            status.innerHTML = "Thanks for your submission!";
+            form.reset()
+        } else {
+            response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+            })
+        }
+        }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+        });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
+  
 <script>
     document.addEventListener('scroll', function () {
     const header = document.querySelector('header');
